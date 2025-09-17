@@ -1,0 +1,37 @@
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2025-09-17T12:56:30.342Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:12:56:30 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-09-17T12:56:30.391Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2025-09-17T13:03:47.331Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:03:47 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-09-17T13:03:47.384Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:09:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:09:50.851Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api","timestamp":"2025-09-17T13:10:44.402Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:10:44 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:10:44.404Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:11:30 +0000] \"POST /api/ HTTP/1.1\" 404 144 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:11:30.856Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:13:29 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 32 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:13:29.825Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:13:33 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:13:33.551Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:13:36 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:13:36.612Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:14:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:14:33.249Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:14:47 +0000] \"GET /api/ HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:14:47.633Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:48:39 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:48:39.891Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:50:33 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:50:33.294Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:50:47 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:50:47.033Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:50:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:50:53.704Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:51:48 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:51:48.673Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:51:54 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:51:54.553Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:52:05 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:52:05.208Z"}
+{"level":"info","message":"User registered successfully: john.syna@example.com","service":"acquisitions-api","timestamp":"2025-09-17T13:52:23.251Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:13:52:23 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 123 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T13:52:23.252Z"}
+{"level":"info","message":"User created with email: admin@example.com","service":"acquisitions-api","timestamp":"2025-09-17T14:13:53.753Z"}
+{"level":"info","message":"User registered successfully: admin@example.com","service":"acquisitions-api","timestamp":"2025-09-17T14:13:53.761Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:14:13:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 116 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T14:13:53.769Z"}
+{"level":"info","message":"User created with email: admin@example.pro","service":"acquisitions-api","timestamp":"2025-09-17T14:14:32.298Z"}
+{"level":"info","message":"User registered successfully: admin@example.pro","service":"acquisitions-api","timestamp":"2025-09-17T14:14:32.301Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:14:14:32 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 115 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T14:14:32.303Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:14:39:25 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T14:39:25.223Z"}
+{"level":"error","message":"Signin error Cannot read properties of undefined (reading 'id')","service":"acquisitions-api","stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at signIn (file:///Users/dimon/projects/acquisitions/src/controllers/auth.controller.js:74:16)","timestamp":"2025-09-17T14:41:10.193Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:14:41:10 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 308 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T14:41:10.199Z"}
+{"level":"error","message":"Signin error Cannot read properties of undefined (reading 'id')","service":"acquisitions-api","stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at signIn (file:///Users/dimon/projects/acquisitions/src/controllers/auth.controller.js:73:16)","timestamp":"2025-09-17T14:42:07.939Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:14:42:07 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 308 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T14:42:07.948Z"}
+{"level":"info","message":"User signed in successfully: admin@example.pro","service":"acquisitions-api","timestamp":"2025-09-17T15:05:40.890Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:15:05:40 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 114 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T15:05:40.899Z"}
+{"level":"info","message":"User signed in successfully: admin@example.pro","service":"acquisitions-api","timestamp":"2025-09-17T15:06:20.235Z"}
+{"level":"info","message":"::1 - - [17/Sep/2025:15:06:20 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 114 \"-\" \"PostmanRuntime/7.46.1\"","service":"acquisitions-api","timestamp":"2025-09-17T15:06:20.236Z"}
