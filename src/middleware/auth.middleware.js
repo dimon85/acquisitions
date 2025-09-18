@@ -34,7 +34,7 @@ export const authenticateToken = (req, res, next) => {
   }
 };
 
-export const requireRole = (allowedRoles) => {
+export const requireRole = allowedRoles => {
   return (req, res, next) => {
     try {
       if (!req.user) {

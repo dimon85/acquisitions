@@ -12,7 +12,7 @@ const config = {
   // bail: 0,
 
   // The directory where Jest should store its cached dependency information
-  // cacheDirectory: "/private/var/folders/tc/4j_8qzkx5nqg10shk02l8_f40000gn/T/jest_dx",
+  // cacheDirectory: "/private/var/folders/vd/dgz_pw2n55vdm9hg3qbvjr0h0000gn/T/jest_dx",
 
   // Automatically clear mock calls, instances, contexts and results before every test
   clearMocks: true,
@@ -147,7 +147,7 @@ const config = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: 'node',
+  // testEnvironment: "jest-environment-node",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
