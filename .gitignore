@@ -3,7 +3,6 @@
 /logs
 /coverage
 
-package-lock.json
 .env
 .env.*
 .neon_local/
