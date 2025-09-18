@@ -23,7 +23,10 @@
     "format:fix": "prettier --write .",
     "db:generate": "drizzle-kit generate --config drizzle.config.js",
     "db:migrate": "drizzle-kit migrate --config drizzle.config.js",
-    "db:studio": "drizzle-kit studio --config drizzle.config.js"
+    "db:studio": "drizzle-kit studio --config drizzle.config.js",
+    "dev:docker": "sh ./scripts/dev.sh",
+    "prod:docker": "sh ./scripts/prod.sh",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
