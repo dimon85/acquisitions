@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import { eq } from 'drizzle-orm';
 import logger from '#config/logger.js';
-import db from '#config/database.js';
+import { db } from '#config/database.js';
 import { users } from '#models/user.model.js';
 
 export const hashPassword = async password => {
@@ -58,12 +58,15 @@ export const authenticateUser = async ({ email, password }) => {
       .select()
       .from(users)
       .where(eq(users.email, email));
-    
+
     if (existingUser.length === 0) {
       throw new Error('Invalid email or password');
     }
 
-    const isPasswordValid = await comparePassword(password, existingUser[0].password);
+    const isPasswordValid = await comparePassword(
+      password,
+      existingUser[0].password
+    );
 
     if (!isPasswordValid) {
       throw new Error('Invalid email or password');
